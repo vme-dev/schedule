@@ -1,0 +1,25 @@
+li { list-style: none }
+
+.scheduleList {
+	text-align: left;
+	margin: 0px 50px;
+	font: 200 16px 'Open Sans';
+
+}
+.scheduleList-wrap {
+	position: relative;
+}
+.scheduleList-list {
+	padding: 0px;
+	margin: 20px auto;
+}
+.scheduleList-item {
+	height: 30px;
+}
+.scheduleList-item:nth-child(odd) {
+    border-top: 1px #6E9ECF solid;
+
+} 
+.scheduleList-item:nth-child(even) {
+    font-size: 12px;
+} 
